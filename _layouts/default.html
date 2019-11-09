@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    {% include header.html %}
+<body>
+{% include header.html %}
 
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
-      </div>
-
-      {% include footer.html %}
+<div class="content-wrapper">
+    <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+            <header class="post-header">
+                <h1 class="post-title">About Me</h1>
+            </header>
+            <section class="post">
+                <p></p>
+            </section>
+        </article>
     </div>
-  </body>
+    <footer class="footer">
+        <span class="footer__copyright">&copy; 2019 . All rights reserved.</span>
+    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/main.js?1573193073549389000"></script>
+</div>
+</div>
+</body>
 </html>
