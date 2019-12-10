@@ -17,15 +17,6 @@ $(document).ready(function () {
     }
   })
 
-  $(document).ready(function () {
-    $('a.button-title').click(function (e) {
-      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
-        $('.panel-cover').removeClass('panel-cover--collapsed')
-        $('.content-wrapper').removeClass('animated slideInRight')
-        $('.panel-cover').css('max-width', '100%')
-        $('.panel-cover').animate({'max-width': '100%', 'width': '100%'}, 400, swing = 'swing', function () {})
-    })
-
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
