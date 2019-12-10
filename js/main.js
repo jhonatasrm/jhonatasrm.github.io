@@ -4,7 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-$(document).ready(function () {
+$(document).load(function () {
   $('a.blog-button').click(function (e) {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()

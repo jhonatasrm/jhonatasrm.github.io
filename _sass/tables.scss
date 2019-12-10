@@ -1,24 +1,33 @@
+// specification of attributes
+$font: bold;
+$direction_left: left;
+$background_color: #eee;
+$padding_distance: 12px;
+$vertical_align: middle;
+$border_bottom_specification: 4px solid #888;
+$margin_bottom_specification: 1.3em;
+
 table {
-	margin-bottom: 1.3em;
+	margin-bottom: $margin_bottom_specification;
 	thead {
-		font-weight: bold;
+		font-weight: $font;
 
 		th {
-			text-align: left;
-			border-bottom: 4px solid #888;
-			font-weight: bold;
-			padding: 12px;
-			vertical-align: middle;
+			text-align: $direction_left;
+			border-bottom: $border_bottom_specification;
+			font-weight: $font;
+			padding: $padding_distance;
+			vertical-align: $vertical_align;
 		}
 	}
 
 	tr {
 		&:nth-child(even) td {
-			background: #eee;
+			background: $background_color;
 		}
 
 		td {
-			padding: 12px;
+			padding: $padding_distance;
 		}
 	}
 }
