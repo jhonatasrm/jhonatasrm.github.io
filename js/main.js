@@ -23,7 +23,7 @@ $(document).ready(function () {
 
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
-    $('.panel-cover').animate({'max-width': '100%', 'width': '100%'}, 400, swing = 'swing', function () {})
+    $('.panel-cover').animate({'max-width': '100%', 'width': '100%'}, 100, swing = 'swing', function () {})
   }
 
   $('.btn-mobile-menu').click(function () {
