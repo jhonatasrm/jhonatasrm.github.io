@@ -1,9 +1,11 @@
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
-    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')){
+      $('a.blog-button').css('visibility', 'hidden')
+      return
+    }    
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
-      $('a.blog-button').css('visibility', 'hidden')
       $('.panel-cover').addClass('panel-cover--collapsed')
       $('.content-wrapper').addClass('animated slideInRight')
     } else {
