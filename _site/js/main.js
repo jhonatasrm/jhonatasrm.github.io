@@ -1,10 +1,5 @@
 $(document).ready(function () {
-  if ($('.panel-cover').hasClass('panel-cover--collapsed')){
-    $('a.blog-button').css('visibility', 'hidden') 
-    return
-  }else {
-    $('.a.blog-button').css('visibility', 'visible') 
-  }
+
   $('a.blog-button').click(function (e) {
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
@@ -34,4 +29,11 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
+  if ($('.panel-cover').hasClass('panel-cover--collapsed')){
+    $('#about').css('visibility', 'hidden') 
+    return
+  }else {
+    $('#about').css('visibility', 'visible') 
+  }
+  
 })
