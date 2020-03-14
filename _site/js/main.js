@@ -1,11 +1,11 @@
 $(document).ready(function () {
+  if ($('.panel-cover').hasClass('panel-cover--collapsed')){
+    $('a.blog-button').css('visibility', 'hidden') 
+    return
+  }else {
+    $('.a.blog-button').css('visibility', 'visible') 
+  }
   $('a.blog-button').click(function (e) {
-    if ($('.panel-cover').hasClass('panel-cover--collapsed')){
-      $('a.blog-button').css('visibility', 'hidden') 
-      return
-    }else {
-      $('.a.blog-button').css('visibility', 'visible') 
-    }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
