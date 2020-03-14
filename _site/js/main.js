@@ -5,16 +5,16 @@ $(document).ready(function () {
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
       $('.content-wrapper').addClass('animated slideInRight')
-      $('#about').css('visibility', 'hidden') 
+      $('#about-button').css('visibility', 'hidden') 
     } else {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
-      $('#about').css('visibility', 'hidden')
+      $('#about-button').css('visibility', 'hidden')
     }
   })
 
   if (window.location.hash && window.location.hash == '#about') {
-    $('#about').css('visibility', 'hidden') 
+    $('##about-button').css('visibility', 'hidden') 
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
@@ -24,14 +24,14 @@ $(document).ready(function () {
   }
 
   $('.btn-mobile-menu').click(function () {
-    $('#about').css('visibility', 'hidden') 
+    $('#about-button').css('visibility', 'hidden') 
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
   $('.navigation-wrapper .blog-button').click(function () {
-    $('.navigation-wrapper').toggleClass('visible')
-    $('#about').css('visibility', 'hidden') 
+    // $('.navigation-wrapper').toggleClass('visible')
+    $('#about-button').css('visibility', 'hidden') 
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })  
 })
