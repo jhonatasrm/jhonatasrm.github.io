@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
   $('a.blog-button').click(function (e) {
+    $('#about').css('visibility', 'hidden') 
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
@@ -20,20 +21,14 @@ $(document).ready(function () {
   }
 
   $('.btn-mobile-menu').click(function () {
+    $('#about').css('visibility', 'hidden') 
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
   $('.navigation-wrapper .blog-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
-    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-  })
-
-  if ($('.panel-cover').hasClass('panel-cover--collapsed')){
-    $('#about').css('visibility', 'hidden') 
-    return
-  }else {
     $('#about').css('visibility', 'visible') 
-  }
-  
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })  
 })
