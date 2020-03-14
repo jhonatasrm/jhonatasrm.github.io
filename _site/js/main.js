@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
   $('#about-button').click(function (e) {
+    if ($('.panel-cover').hasClass('panel-cover--collapsed') || $('.panel-cover').hasClass('panel-cover--overlay')){
+      $('#about-button').css('visibility', 'hidden') 
+      return
+    }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
