@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $('a.blog-button').click(function (e) {
+  $('#about-button').click(function (e) {
     $('#about').css('visibility', 'hidden') 
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
