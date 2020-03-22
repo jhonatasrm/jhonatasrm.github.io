@@ -16,6 +16,10 @@ pre.highlight,
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
+html, body {
+  scrollbar-width: none;
+}
+
 pre.highlight code,
 .highlight pre code {
   white-space: pre-wrap;
