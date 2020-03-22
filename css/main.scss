@@ -6,9 +6,19 @@
 
 /* Modifications */
 
+html {
+  overflow: scroll; 
+  overflow-x: hidden;
+}
+
 pre.highlight,
 .highlight pre {
   padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 pre.highlight code,
