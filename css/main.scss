@@ -11,6 +11,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
 pre.highlight,
 .highlight pre {
   padding: 10px;
