@@ -3464,6 +3464,7 @@ h5 {
   margin-bottom: .4em;
   font-family: "Roboto Slab", serif;
   font-weight: lighter;
+  font-display: swap;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
 
@@ -3507,6 +3508,7 @@ blockquote {
   font-family: "Roboto Slab", serif;
   font-weight: lighter;
   font-style: italic;
+  font-display: swap;
   font-size: 1.3em;
   text-align: center; }
 
@@ -3580,6 +3582,7 @@ pre code {
 .intro {
   font-family: "Roboto Slab", serif;
   font-size: 1.2em;
+  font-display: swap;
   font-weight: lighter;
   color: #999999; }
 
@@ -3720,7 +3723,8 @@ hr {
   font-weight: lighter;
   letter-spacing: 3px;
   color: #cccccc;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased; 
+  font-display: swap;}
 
 .panel-cover {
   display: block;
@@ -3729,7 +3733,7 @@ hr {
   width: 100%;
   max-width: none;
   height: 100%;
-  background: url(../images/background-cover.jpg) top left no-repeat #666666;
+  background: url(../images/background-cover.jpeg) top left no-repeat #666666;
   background-size: cover; }
 
 .panel-cover--collapsed {
