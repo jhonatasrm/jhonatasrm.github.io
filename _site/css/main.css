@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)";
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -2560,6 +2561,7 @@ body:after {
   src: url("../fonts/foundation-icons/foundation-icons.eot");
   src: url("../fonts/foundation-icons/foundation-icons.eot?") format("embedded-opentype"), url("../fonts/foundation-icons/foundation-icons.woff") format("woff"), url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"), url("../fonts/foundation-icons/foundation-icons.svg") format("svg");
   font-weight: normal;
+  font-display: swap;
   font-style: normal; }
 .icon:before {
   font-family: "foundation-icons";
@@ -3711,7 +3713,9 @@ hr {
   vertical-align: middle; }
 
 .panel-title {
+  font-family: "Roboto Slab", serif;
   margin: 0 0 5px 0;
+  font-display: swap;
   font-size: 2.5em;
   letter-spacing: 4px;
   color: #FFF; }
@@ -3755,6 +3759,8 @@ hr {
   margin-bottom: .2em; }
 
 .panel-cover__description {
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
   margin: 0 30px; }
 
 .panel-cover__divider {
@@ -3801,6 +3807,8 @@ hr {
   color: #FFF; }
 
 .cover-navigation {
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
   margin-top: 10px; }
 
 .cover-navigation--social {

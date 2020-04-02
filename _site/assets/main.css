@@ -31,6 +31,12 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
 
+p {
+  margin-bottom: 1.3em;
+  line-height: 1.7em;
+  font-family: "Raleway", sans-serif;
+  font-display: swap;  
+} 
 /**
  * Images
  */
@@ -283,6 +289,8 @@ pre {
  * Posts
  */
 .post-header {
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
   margin-bottom: 30px; }
 
 .post-title {
