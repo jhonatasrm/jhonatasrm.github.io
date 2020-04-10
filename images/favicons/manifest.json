@@ -1,5 +1,13 @@
 {
-	"name": "Jekyll-Uno",
+	"name": "Jhonatas Rodrigues",
+	"short_name": "jhonatasrm",
+	"start_url": "./",
+	"scope": ".",
+	"lang": "en-US",
+	"theme_color": "#1e1e1e",
+	"background_color": "#1e1e1e",
+	"display": "standalone",
+	"orientation": "any",
 	"icons": [
 		{
 			"src": "\/images\/favicons\/android-chrome-36x36.png",
