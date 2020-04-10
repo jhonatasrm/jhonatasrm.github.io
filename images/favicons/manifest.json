@@ -1,8 +1,7 @@
 {
 	"name": "Jhonatas Rodrigues",
 	"short_name": "jhonatasrm",
-	"start_url": "../index.html",
-	"scope": ".",
+	"start_url": ".",
 	"lang": "en-US",
 	"theme_color": "#1e1e1e",
 	"background_color": "#1e1e1e",
