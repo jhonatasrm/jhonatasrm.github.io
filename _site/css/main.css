@@ -3426,6 +3426,7 @@ body:after {
 html, body {
   height: 100%;
   scrollbar-width: none;
+  overflow:hidden;
  }
 
 html {
@@ -4108,7 +4109,8 @@ input[type="tel"]:-ms-input-placeholder {
 @media all and (min-width: 1300px) {
   html, body {
     height: 100%;
-    scrollbar-width: none; }
+    scrollbar-width: none;
+    overflow:hidden; }
 
   .content-wrapper {
     margin-left: 530px; } 
@@ -4116,7 +4118,8 @@ input[type="tel"]:-ms-input-placeholder {
 @media all and (max-width: 1100px) {
   html, body {
     height: 100%;
-    scrollbar-width: none; }
+    scrollbar-width: none; 
+    overflow:hidden; }
 
   .panel-cover__logo {
     width: 70px; }
@@ -4138,7 +4141,8 @@ input[type="tel"]:-ms-input-placeholder {
 
   html, body {
     height: 100%;
-    scrollbar-width: none; }
+    scrollbar-width: none;
+    overflow:hidden; }
 
   .btn-mobile-menu {
     display: block; }
@@ -4242,8 +4246,9 @@ input[type="tel"]:-ms-input-placeholder {
 
    html, body {
     height: 100%;
-    scrollbar-width: none; }
-    
+    scrollbar-width: none; 
+    overflow:hidden; }
+
   .panel-main__inner {
     padding: 0 5%; }
 
