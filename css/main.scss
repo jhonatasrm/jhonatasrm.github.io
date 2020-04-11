@@ -18,6 +18,9 @@ pre.highlight,
 
 html, body {
   scrollbar-width: none;
+  overflow-x:hidden;
+  overflow-y: auto;
+  width: 100%
 }
 
 pre.highlight code,

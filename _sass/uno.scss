@@ -1566,7 +1566,9 @@ input[type="tel"] {
 	html, body {
 		height: 100%;
 		scrollbar-width: none;
-	    overflow:hidden; }
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100% }
 
 	.content-wrapper {
 		margin-left: 530px; } }
@@ -1574,7 +1576,9 @@ input[type="tel"] {
 	html, body {
 		height: 100%;
 		scrollbar-width: none;
-	    overflow:hidden; }
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100% }
 
 	.panel-cover__logo {
 		width: 70px; }
@@ -1596,7 +1600,9 @@ input[type="tel"] {
 	html, body {
 		height: 100%;
 		scrollbar-width: none;
-		overflow: hidden; }
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100% }
 
 	.btn-mobile-menu {
 		display: block; }
@@ -1690,7 +1696,9 @@ input[type="tel"] {
 	html, body {
 		height: 100%;
 		scrollbar-width: none;
-	    overflow:hidden; }
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100% }
 
 	.panel-main__inner {
 		padding: 0 5%; }
