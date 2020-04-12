@@ -1711,7 +1711,6 @@ input[type="tel"] {
 		overflow-x:hidden;
 		overflow-y: auto;
 		width: 100%;
-		font-size: .8em;
 	}
 
 	.panel-main__inner {
@@ -1727,3 +1726,23 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+@media all and (max-height: 360px){
+	user-image {
+		margin-bottom: 1.2em;
+		position: relative;
+		width: 80px;
+		height: 80px;
+		border: 3px solid #fff;
+		border-radius: 100%;
+	}
+
+	html, body {
+		height: 100%;
+		scrollbar-width: none;
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100%;
+		font-size: 0.8em;
+	}
+}
