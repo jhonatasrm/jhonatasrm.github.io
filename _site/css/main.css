@@ -4586,27 +4586,7 @@ pre.highlight code,
   border-radius: 100%; }
 
 
-@media all and (max-width: 960px) {
-
-	@media (orientation: landscape) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-		}
-	}
-		  
-	@media (orientation: portrait) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-			overflow-y: auto;
-			width: 100% 
-		}
-  }
-}
-@media all and (max-width: 340px) {
+@media all and (max-width: 640px) {
 	@media (orientation: landscape) {
 		html, body {
 			height: 100%;
