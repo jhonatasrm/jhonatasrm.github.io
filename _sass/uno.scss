@@ -1705,14 +1705,13 @@ input[type="tel"] {
 		width: 100%;
 		margin: 0 0 .4em 0; } }
 
-@media all and (max-height: 420px){
-	user-image {
-		margin-bottom: 0.9em;
-		position: relative;
-		width: 75px;
-		height: 75px;
-		border: 2px solid #fff;
-		border-radius: 100%;
+@media all and (max-width: 360px), (max-height: 420px) {
+	html, body {
+		height: 100%;
+		scrollbar-width: none;
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100%;
 	}
 
 	body {
@@ -1721,20 +1720,13 @@ input[type="tel"] {
 		color: #666666;
 	}
 
-	.panel-cover__divider {
-		width: 50%;
-		margin: 10px auto;
-		border-top: 1px solid rgba(255,255,255,0.14);
-	}
-}
-
-@media all and (max-width: 340px) {
-	html, body {
-		height: 100%;
-		scrollbar-width: none;
-		overflow-x:hidden;
-		overflow-y: auto;
-		width: 100%;
+	user-image {
+		margin-bottom: 0.9em;
+		position: relative;
+		width: 75px;
+		height: 75px;
+		border: 2px solid #fff;
+		border-radius: 100%;
 	}
 
 	.panel-main__inner {
@@ -1749,4 +1741,11 @@ input[type="tel"] {
 
 	.btn, .navigation__item a {
 		display: block;
-		margin-bottom: .4em; } }
+		margin-bottom: .4em; } 
+		
+	.panel-cover__divider {
+		width: 50%;
+		margin: 10px auto;
+		border-top: 1px solid rgba(255,255,255,0.14);
+	}
+}
