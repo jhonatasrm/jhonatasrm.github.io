@@ -1729,7 +1729,7 @@ input[type="tel"] {
 
 @media all and (max-height: 360px){
 	user-image {
-		margin-bottom: 1.2em;
+		margin-bottom: 0.9em;
 		position: relative;
 		width: 75px;
 		height: 75px;
@@ -1741,5 +1741,11 @@ input[type="tel"] {
 		font-family: "Raleway", sans-serif;
 		font-size: 0.8em;
 		color: #666666;
+	}
+
+	.panel-cover__divider {
+		width: 50%;
+		margin: 10px auto;
+		border-top: 1px solid rgba(255,255,255,0.14);
 	}
 }
