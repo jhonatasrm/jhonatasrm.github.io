@@ -1597,12 +1597,24 @@ input[type="tel"] {
 		margin-top: 5px;
 		margin-left: 0; } }
 @media all and (max-width: 960px) {
-	html, body {
-		height: 100%;
-		scrollbar-width: none;
-		overflow-x:hidden;
-		overflow-y: auto;
-		width: 100% }
+
+	@media (orientation: landscape) {
+		html, body {
+			height: 100%;
+			scrollbar-width: none;
+			overflow-x:hidden;
+		}
+	}
+		  
+	@media (orientation: portrait) {
+		html, body {
+			height: 100%;
+			scrollbar-width: none;
+			overflow-x:hidden;
+			overflow-y: auto;
+			width: 100% 
+		}
+	}
 
 	.btn-mobile-menu {
 		display: block; }
@@ -1693,12 +1705,23 @@ input[type="tel"] {
 		width: 100%;
 		margin: 0 0 .4em 0; } }
 @media all and (max-width: 340px) {
-	html, body {
-		height: 100%;
-		scrollbar-width: none;
-		overflow-x:hidden;
-		overflow-y: auto;
-		width: 100% }
+	@media (orientation: landscape) {
+		html, body {
+			height: 100%;
+			scrollbar-width: none;
+			overflow-x:hidden;
+		}
+	}
+		  
+	@media (orientation: portrait) {
+		html, body {
+			height: 100%;
+			scrollbar-width: none;
+			overflow-x:hidden;
+			overflow-y: auto;
+			width: 100% 
+		}
+	}
 
 	.panel-main__inner {
 		padding: 0 5%; }
