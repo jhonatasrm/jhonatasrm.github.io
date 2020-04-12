@@ -1705,22 +1705,13 @@ input[type="tel"] {
 		width: 100%;
 		margin: 0 0 .4em 0; } }
 @media all and (max-width: 340px) {
-	@media (orientation: landscape) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-		}
-	}
-		  
-	@media (orientation: portrait) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-			overflow-y: auto;
-			width: 100% 
-		}
+	html, body {
+		height: 100%;
+		scrollbar-width: none;
+		overflow-x:hidden;
+		overflow-y: auto;
+		width: 100%;
+		font-size: .8em;
 	}
 
 	.panel-main__inner {

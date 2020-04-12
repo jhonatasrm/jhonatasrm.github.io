@@ -4584,25 +4584,3 @@ pre.highlight code,
   height: 100px;
   border: 3px solid #fff;
   border-radius: 100%; }
-
-
-@media all and (max-width: 640px) {
-	@media (orientation: landscape) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-		}
-	}
-		  
-	@media (orientation: portrait) {
-		html, body {
-			height: 100%;
-			scrollbar-width: none;
-			overflow-x:hidden;
-			overflow-y: auto;
-			width: 100% 
-		}
-	}
- }
-
