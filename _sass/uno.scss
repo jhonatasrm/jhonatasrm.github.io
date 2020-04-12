@@ -1716,12 +1716,13 @@ input[type="tel"] {
 
 	body {
 		font-family: "Raleway", sans-serif;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		color: #666666;
 	}
 
 	user-image {
 		margin-bottom: 0.9em;
+		margin-top: 3em;
 		position: relative;
 		width: 75px;
 		height: 75px;
@@ -1737,7 +1738,7 @@ input[type="tel"] {
 		font-size: 1.5em; }
 
 	.panel-subtitle {
-		font-size: .9em; }
+		font-size: .8em; }
 
 	.btn, .navigation__item a {
 		display: block;
