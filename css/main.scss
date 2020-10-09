@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "uno";
 @import "tables";
 @import "monokai";
@@ -12,15 +13,16 @@ pre.highlight,
 }
 
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-html, body {
+html,
+body {
   scrollbar-width: none;
-  overflow-x:hidden;
+  overflow-x: hidden;
   overflow-y: auto;
-  width: 100%
+  width: 100%;
 }
 
 pre.highlight code,
@@ -32,6 +34,11 @@ pre.highlight code,
 .navigation__item a {
   margin: 5px 0;
   white-space: nowrap;
+}
+
+.navigation__item a i {
+  width: 18px;
+  height: 22px;
 }
 
 .pagination__page-number {
@@ -59,10 +66,10 @@ pre.highlight code,
 }
 
 .footer__copyright {
-    font-family: "Raleway", sans-serif;
-    font-size: 1em;
-    color: #666666;
-    margin: 0 20px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: #666666;
+  margin: 0 20px 10px;
 }
 
 .user-image {
@@ -71,5 +78,5 @@ pre.highlight code,
   width: 100px;
   height: 100px;
   border: 3px solid #fff;
-  border-radius:100%;
+  border-radius: 100%;
 }
