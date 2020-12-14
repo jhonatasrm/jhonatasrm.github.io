@@ -4,6 +4,10 @@
 	 License: none (public domain)
 */
 
+.justify-content {
+  text-align: justify;
+}
+
 .animated {
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
