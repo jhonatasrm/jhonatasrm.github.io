@@ -304,7 +304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/well-known/brave-rewards-verification.txt">
+    <entry file="file://$PROJECT_DIR$/_site/.well-known/brave-rewards-verification.txt">
       <provider selected="true" editor-type-id="text-editor">
       </provider>
     </entry>
@@ -352,6 +352,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/.well-known/brave-rewards-verification.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
