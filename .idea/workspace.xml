@@ -362,10 +362,6 @@
     </entry>
         <entry file="file://$PROJECT_DIR$/well-known.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
