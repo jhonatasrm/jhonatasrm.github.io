@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: jhonatasrm.com
-Token: 5e15912ab23b99f6cafb9cd9e653b68c0598de5981729ad0464893f8ba878f98

@@ -304,10 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/.well-known/brave-rewards-verification.txt">
-      <provider selected="true" editor-type-id="text-editor">
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/tags.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -333,9 +329,6 @@
     <entry file="file://$PROJECT_DIR$/_site/about/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/.well-known/brave-rewards-verification.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -355,9 +348,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/.well-known/brave-rewards-verification.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.md">

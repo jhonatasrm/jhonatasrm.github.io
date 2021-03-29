@@ -43,21 +43,6 @@
         <priority>0.3</priority>
       
     </url>
-
-
-    <url>
-      <loc>http://localhost:4000/.well-known/brave-rewards-verification.txt</loc>
-      
-        <lastmod>2021-28-03T13:45:50-03:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-  
     
     <url>
       <loc>http://localhost:4000/</loc>
