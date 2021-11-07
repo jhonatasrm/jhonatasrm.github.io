@@ -19,6 +19,14 @@ $(document).ready(function () {
     }
   })
 
+  $('#about-button').click(function(){
+    $('#about-button').css('display', 'none');
+  })
+
+  if(window.location.href.includes('/about')){
+    $('#about-button').css('display', 'none');
+  }
+  
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
