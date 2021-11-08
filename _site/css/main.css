@@ -3611,6 +3611,9 @@ body:after {
 .icon-x-circle:before {
   content: "\f216"; }
 
+.icon-circle-close:before {
+  content: "\f216"; }
+
 .icon-x:before {
   content: "\f217"; }
 
