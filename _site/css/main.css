@@ -4474,7 +4474,7 @@ input[type="tel"]:-ms-input-placeholder {
   .navigation__item {
     width: 100%;
     margin: 0 0 0.4em 0; } }
-@media (max-width: 360px), (max-height: 420px) {
+@media all and (max-width: 360px), (max-height: 420px) {
   html,
   body {
     height: 100%;
