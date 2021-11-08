@@ -23,24 +23,36 @@
   animation-duration: 1s; }
 
 @-webkit-keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1; }
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0; } }
 @-moz-keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1; }
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0; } }
 @-o-keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1; }
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0; } }
 @keyframes flash {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     opacity: 1; }
-  25%, 75% {
+  25%,
+  75% {
     opacity: 0; } }
 .flash {
   -webkit-animation-name: flash;
@@ -49,32 +61,64 @@
   animation-name: flash; }
 
 @-webkit-keyframes shake {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: translateX(-10px); }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     -webkit-transform: translateX(10px); } }
 @-moz-keyframes shake {
-  0%, 100% {
+  0%,
+  100% {
     -moz-transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     -moz-transform: translateX(-10px); }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     -moz-transform: translateX(10px); } }
 @-o-keyframes shake {
-  0%, 100% {
+  0%,
+  100% {
     -o-transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     -o-transform: translateX(-10px); }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     -o-transform: translateX(10px); } }
 @keyframes shake {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     transform: translateX(-10px); }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateX(10px); } }
 .shake {
   -webkit-animation-name: shake;
@@ -83,28 +127,44 @@
   animation-name: shake; }
 
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0); }
   40% {
     -webkit-transform: translateY(-30px); }
   60% {
     -webkit-transform: translateY(-15px); } }
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0); }
   40% {
     -moz-transform: translateY(-30px); }
   60% {
     -moz-transform: translateY(-15px); } }
 @-o-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -o-transform: translateY(0); }
   40% {
     -o-transform: translateY(-30px); }
   60% {
     -o-transform: translateY(-15px); } }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0); }
   40% {
     transform: translateY(-30px); }
@@ -119,44 +179,68 @@
 @-webkit-keyframes tada {
   0% {
     -webkit-transform: scale(1); }
-  10%, 20% {
+  10%,
+  20% {
     -webkit-transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale(1.1) rotate(-3deg); }
   100% {
     -webkit-transform: scale(1) rotate(0); } }
 @-moz-keyframes tada {
   0% {
     -moz-transform: scale(1); }
-  10%, 20% {
+  10%,
+  20% {
     -moz-transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -moz-transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -moz-transform: scale(1.1) rotate(-3deg); }
   100% {
     -moz-transform: scale(1) rotate(0); } }
 @-o-keyframes tada {
   0% {
     -o-transform: scale(1); }
-  10%, 20% {
+  10%,
+  20% {
     -o-transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     -o-transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     -o-transform: scale(1.1) rotate(-3deg); }
   100% {
     -o-transform: scale(1) rotate(0); } }
 @keyframes tada {
   0% {
     transform: scale(1); }
-  10%, 20% {
+  10%,
+  20% {
     transform: scale(0.9) rotate(-3deg); }
-  30%, 50%, 70%, 90% {
+  30%,
+  50%,
+  70%,
+  90% {
     transform: scale(1.1) rotate(3deg); }
-  40%, 60%, 80% {
+  40%,
+  60%,
+  80% {
     transform: scale(1.1) rotate(-3deg); }
   100% {
     transform: scale(1) rotate(0); } }
@@ -167,7 +251,11 @@
   animation-name: tada; }
 
 @-webkit-keyframes swing {
-  20%, 40%, 60%, 80%, 100% {
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
     -webkit-transform-origin: top center; }
   20% {
     -webkit-transform: rotate(15deg); }
@@ -2351,7 +2439,8 @@
     -webkit-transform: rotate(0);
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out; }
-  20%, 60% {
+  20%,
+  60% {
     -webkit-transform: rotate(80deg);
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out; }
@@ -2372,7 +2461,8 @@
     -moz-transform: rotate(0);
     -moz-transform-origin: top left;
     -moz-animation-timing-function: ease-in-out; }
-  20%, 60% {
+  20%,
+  60% {
     -moz-transform: rotate(80deg);
     -moz-transform-origin: top left;
     -moz-animation-timing-function: ease-in-out; }
@@ -2393,7 +2483,8 @@
     -o-transform: rotate(0);
     -o-transform-origin: top left;
     -o-animation-timing-function: ease-in-out; }
-  20%, 60% {
+  20%,
+  60% {
     -o-transform: rotate(80deg);
     -o-transform-origin: top left;
     -o-animation-timing-function: ease-in-out; }
@@ -2414,7 +2505,8 @@
     transform: rotate(0);
     transform-origin: top left;
     animation-timing-function: ease-in-out; }
-  20%, 60% {
+  20%,
+  60% {
     transform: rotate(80deg);
     transform-origin: top left;
     animation-timing-function: ease-in-out; }
@@ -2595,6 +2687,21 @@ video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+.d-flex {
+  display: flex;
+  justify-content: end;
+  width: 100%; }
+
+.d-flex-img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  color: #333333 !important; }
+
+.d-flex-img.d-flex-img:hover {
+  transform: scale(1.1); }
+
 article,
 aside,
 details,
@@ -4323,19 +4430,25 @@ input[type="tel"]:-ms-input-placeholder {
     width: 100%; }
 
   .cover-navigation .navigation {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: scroll;
     width: 100%; }
 
   .cover-navigation .navigation li {
     width: 80%;
+    margin: 10px;
     margin-bottom: 0.4em; }
 
   .cover-navigation.navigation--social {
     padding-top: 5px; }
 
   .cover-navigation.navigation--social .navigation li {
-    display: inline-block;
-    width: 25.8%; }
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    flex-direction: row; }
 
   .content-wrapper {
     width: 80%;
