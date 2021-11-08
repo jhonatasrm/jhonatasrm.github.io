@@ -4323,7 +4323,9 @@ input[type="tel"]:-ms-input-placeholder {
     scrollbar-width: none;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
 
   .content-wrapper {
     margin-left: 530px; } }
@@ -4472,7 +4474,7 @@ input[type="tel"]:-ms-input-placeholder {
   .navigation__item {
     width: 100%;
     margin: 0 0 0.4em 0; } }
-@media all and (max-width: 360px), (max-height: 420px) {
+@media (max-width: 360px), (max-height: 420px) {
   html,
   body {
     height: 100%;

@@ -2348,7 +2348,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
 }
 
-@media all and (max-width: 360px), (max-height: 420px) {
+@media (max-width: 360px), (max-height: 420px) {
   html,
   body {
     height: 100%;
