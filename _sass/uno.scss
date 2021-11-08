@@ -2301,6 +2301,7 @@ input[type="tel"]:-ms-input-placeholder {
     flex-direction: row;
     overflow: scroll;
     width: 100%;
+    flex-wrap: wrap;
   }
   .cover-navigation .navigation li {
     width: 80%;

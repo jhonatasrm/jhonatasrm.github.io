@@ -4434,7 +4434,8 @@ input[type="tel"]:-ms-input-placeholder {
     justify-content: center;
     flex-direction: row;
     overflow: scroll;
-    width: 100%; }
+    width: 100%;
+    flex-wrap: wrap; }
 
   .cover-navigation .navigation li {
     width: 80%;
