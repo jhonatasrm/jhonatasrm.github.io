@@ -5,7 +5,6 @@ $(document).ready(function () {
 
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
-    $('#close-content').css('display', 'none');
     $('.panel-cover').removeClass('panel-cover--collapsed');
   });
  /* 
@@ -29,7 +28,6 @@ $(document).ready(function () {
 
   $('#about-button').click(function(){
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
-    $('#close-content').css('display', 'block');
     if (window.width < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
       $('.content-wrapper').addClass('animated slideInRight');
