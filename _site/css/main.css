@@ -3611,7 +3611,7 @@ body:after {
 .icon-x-circle:before {
   content: "\f216"; }
 
-.icon-circle-close:before {
+.icon-close-circle:before {
   content: "\f216"; }
 
 .icon-x:before {
@@ -4100,6 +4100,12 @@ hr {
   top: 3px;
   font-size: 36px;
   color: #fff; }
+
+.btn-mobile-close-icon {
+  position: relative;
+  top: 3px;
+  font-size: 36px;
+  color: #333333; }
 
 nav {
   display: inline-block;
