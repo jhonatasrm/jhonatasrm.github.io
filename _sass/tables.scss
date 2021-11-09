@@ -1,5 +1,4 @@
 // specification of attributes
-/*
 $font: bold;
 $direction_left: left;
 $background_color: #eee;
@@ -9,27 +8,26 @@ $border_bottom_specification: 4px solid #888;
 $margin_bottom_specification: 1.3em;
 
 table {
-	margin-bottom: $margin_bottom_specification;
-	thead {
-		font-weight: $font;
+  margin-bottom: $margin_bottom_specification;
+  thead {
+    font-weight: $font;
 
-		th {
-			text-align: $direction_left;
-			border-bottom: $border_bottom_specification;
-			font-weight: $font;
-			padding: $padding_distance;
-			vertical-align: $vertical_align;
-		}
-	}
+    th {
+      text-align: $direction_left;
+      border-bottom: $border_bottom_specification;
+      font-weight: $font;
+      padding: $padding_distance;
+      vertical-align: $vertical_align;
+    }
+  }
 
-	tr {
-		&:nth-child(even) td {
-			background: $background_color;
-		}
+  tr {
+    &:nth-child(even) td {
+      background: $background_color;
+    }
 
-		td {
-			padding: $padding_distance;
-		}
-	}
+    td {
+      padding: $padding_distance;
+    }
+  }
 }
-*/
