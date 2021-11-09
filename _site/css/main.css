@@ -721,6 +721,15 @@ hr {
   letter-spacing: 4px;
   color: #fff; }
 
+.user-image {
+  margin-bottom: 0.4em;
+  margin-top: 3em;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: 2px solid #fff;
+  border-radius: 100%; }
+
 .panel-subtitle {
   font-family: "Roboto Slab", serif;
   font-size: 1.2em;
