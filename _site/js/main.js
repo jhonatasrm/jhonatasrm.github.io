@@ -7,7 +7,7 @@ $(document).ready(function () {
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '10px'); 
+    $('.navigation-wrapper').css('margin-top', '5px'); 
   });
 
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
