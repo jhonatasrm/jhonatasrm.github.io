@@ -770,7 +770,8 @@ hr {
 .panel-cover__divider {
   width: 50%;
   margin: 20px auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.14); }
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin-bottom: 10px; }
 
 .panel-cover__divider--secondary {
   width: 15%; }
@@ -1065,7 +1066,8 @@ i {
     width: 100%;
     padding: 20px 0;
     background: rgba(51, 51, 51, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 10px; }
 
   .navigation-wrapper.visible {
     display: block; }
