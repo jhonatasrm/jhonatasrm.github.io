@@ -1,19 +1,15 @@
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    $('.navigation-wrapper').css('margin-top', '-25px');
+    $('.navigation-wrapper').css('margin-top', '-25px'); 
   }
 
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '0px');
+    $('.navigation-wrapper').css('margin-top', '0px'); 
   });
- /* 
-  if (window.location.hash && window.location.hash == '#blog') {
-    $('.panel-cover').addClass('panel-cover--collapsed');
-  }
- */
+  
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
