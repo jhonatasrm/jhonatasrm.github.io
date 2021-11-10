@@ -13,9 +13,9 @@ $(document).ready(function () {
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '0px'); 
+    $('.navigation-wrapper').css('margin-top', '10px'); 
   });
-  
+
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
