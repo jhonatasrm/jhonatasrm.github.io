@@ -1,13 +1,13 @@
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    $('.navigation-wrapper').css('margin-top', '-25px'); 
+    $('#personal-projects-button').css('display', 'block');
   }
 
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '5px'); 
+    $('#personal-projects-button').css('display', 'none');
   });
 
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
