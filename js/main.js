@@ -10,6 +10,11 @@ $(document).ready(function () {
     $('#personal-projects-button').css('display', 'block');
   }
 
+  if(window.location.href.includes('/personal-projects')){
+    $('#about-button').css('display', 'block');
+    $('#personal-projects-button').css('display', 'none');
+  }
+
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
@@ -41,5 +46,4 @@ $(document).ready(function () {
       $('#about-button').css('visibility', 'visible');
     }
   });
-
 })

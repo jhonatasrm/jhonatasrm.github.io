@@ -170,6 +170,15 @@
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px); }
+  25% {
+    opacity: 0;
+    -webkit-transform: translateY(-1500px); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-1000px); }
+  75% {
+    opacity: 0;
+    -webkit-transform: translateY(-500px); }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0); } }
@@ -177,6 +186,9 @@
   0% {
     opacity: 0;
     -moz-transform: translateY(-2000px); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-1000px); }
   100% {
     opacity: 1;
     -moz-transform: translateY(0); } }
@@ -184,6 +196,9 @@
   0% {
     opacity: 0;
     -o-transform: translateY(-2000px); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-1000px); }
   100% {
     opacity: 1;
     -o-transform: translateY(0); } }
@@ -191,6 +206,9 @@
   0% {
     opacity: 0;
     transform: translateY(-2000px); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-1000px); }
   100% {
     opacity: 1;
     transform: translateY(0); } }
@@ -1154,6 +1172,15 @@ i {
     width: 50%;
     margin: 5px auto;
     border-top: 1px solid rgba(255, 255, 255, 0.14); } }
+.no_highlights {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 table {
   margin-bottom: 1.3em; }
   table thead {
