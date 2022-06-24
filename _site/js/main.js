@@ -8,7 +8,9 @@ $(document).ready(function () {
   $('#close-content').click(function(){
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '5px'); 
+    $('.navigation-wrapper').css('margin-top', '0px');  
+    $('.navigation--social').css('padding-top', '0px');
+    $('.navigation--social').css('margin-top', '-7px');
   });
 
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
