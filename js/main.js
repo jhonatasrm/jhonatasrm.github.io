@@ -42,6 +42,7 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', currentWidth);
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {});
       $('#about-button').css('visibility', 'visible');
+      $('#about-button').css('margin-bottom', '20px');
     }
   });
 
