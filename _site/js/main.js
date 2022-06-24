@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('.navigation--social').css('padding-top', '0px');
     $('.navigation--social').css('margin-top', '-7px');
     
-   if (window.width > 960) {
+   if (window.innerWidth > 960) {
       $('#about-button').css('margin-bottom', '20px');
    }
   });
@@ -40,7 +40,7 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', currentWidth);
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {});
       $('#about-button').css('visibility', 'visible');
-       if (window.width > 960) {
+       if (window.innerWidth > 960) {
           $('#about-button').css('margin-bottom', '20px');
        }
     }
