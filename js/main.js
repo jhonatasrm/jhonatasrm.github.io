@@ -20,7 +20,9 @@ $(document).ready(function () {
      if (window.innerWidth > 960) {
         $('#about-button').css('margin-bottom', '20px');
      } else {
-        $('.btn-mobile-menu').click();
+        if($('.navigation-wrapper').hasClass('visible')){
+          $('.btn-mobile-menu').click();
+        }
      }
   });
 
