@@ -14,7 +14,9 @@ $(document).ready(function () {
     
    if (window.innerWidth > 960) {
       $('#about-button').css('margin-bottom', '20px');
-   }
+   } else {
+        $('.btn-mobile-menu').click();
+     }
   });
 
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
