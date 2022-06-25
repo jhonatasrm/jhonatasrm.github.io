@@ -3,7 +3,6 @@
 	 v2.0 | 20110126
 	 License: none (public domain)
 */
-*{-webkit-tap-highlight-color: transparent;}
 .animated {
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
