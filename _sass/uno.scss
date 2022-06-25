@@ -622,6 +622,7 @@ hr {
   top: 3px;
   font-size: 36px;
   color: #fff;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-mobile-close-icon {
@@ -629,6 +630,7 @@ hr {
   top: 3px;
   font-size: 36px;
   color: #333333;
+  -webkit-tap-highlight-color: transparent;
 }
 
 nav {
@@ -968,6 +970,7 @@ i {
   .navigation__item a {
     display: block;
     margin-bottom: 0.4em;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .panel-cover__divider {
