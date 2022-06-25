@@ -19,6 +19,8 @@ $(document).ready(function () {
     $('.navigation--social').css('margin-top', '-7px');
      if (window.innerWidth > 960) {
         $('#about-button').css('margin-bottom', '20px');
+     } else {
+        $('.btn-mobile-menu').click();
      }
   });
 
