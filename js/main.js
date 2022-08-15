@@ -2,7 +2,7 @@ $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
     //$('.navigation-wrapper').css('margin-top', '-42px'); 
-    $('.navigation--social').css('padding-top', '25px');
+    //$('.navigation--social').css('padding-top', '25px');
   }
 
   $('#close-content').click(function(){
@@ -30,11 +30,21 @@ $(document).ready(function () {
   $('.btn-mobile-menu__icon').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
+    if(!$('.btn-mobile-menu__icon').hasClass('animated')){
+      $('.btn-mobile-menu').css("background", "#202020");
+    }else {
+      $('.btn-mobile-menu').css("background", "rgba(0,0,0,0.4)");
+    }
   });
 
   $('.btn-mobile-menu__icon').click(function () {
     $('.navigation-wrapper').toggleClass('visible');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
+    if(!$('.btn-mobile-menu__icon').hasClass('animated')){
+      $('.btn-mobile-menu').css("background", "#202020");
+    }else {
+      $('.btn-mobile-menu').css("background", "rgba(0,0,0,0.4)");
+    }
   });
 
   $('#about-button').click(function(){
@@ -57,7 +67,7 @@ $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
     //$('.navigation-wrapper').css('margin-top', '-42px'); 
-    $('.navigation--social').css('padding-top', '25px');
+    //$('.navigation--social').css('padding-top', '25px');
   }
 
   $('#close-content').click(function(){
