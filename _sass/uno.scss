@@ -869,11 +869,11 @@ i {
   .navigation-wrapper {
     display: none;
     position: fixed;
-    top: 42px;
+    top: 0;
     right: 0;
     left: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     background: rgba(51, 51, 51, 0.98);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
