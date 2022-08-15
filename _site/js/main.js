@@ -1,7 +1,7 @@
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    $('.navigation-wrapper').css('margin-top', '-42px'); 
+    //$('.navigation-wrapper').css('margin-top', '-42px'); 
     $('.navigation--social').css('padding-top', '25px');
   }
 
@@ -10,9 +10,9 @@ $(document).ready(function () {
     window.history.pushState('state', 'title', '/');
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '0px');  
-    $('.navigation--social').css('padding-top', '0px');
-    $('.navigation--social').css('margin-top', '-7px');
+    //$('.navigation-wrapper').css('margin-top', '0px');  
+    //$('.navigation--social').css('padding-top', '0px');
+    //$('.navigation--social').css('margin-top', '-7px');
     
    if (window.innerWidth > 960) {
       $('#about-button').css('margin-bottom', '20px');
@@ -32,7 +32,7 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
-  $('.navigation-wrapper #about-button').click(function () {
+  $('.btn-mobile-menu__icon').click(function () {
     $('.navigation-wrapper').toggleClass('visible');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
@@ -56,7 +56,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    $('.navigation-wrapper').css('margin-top', '-42px'); 
+    //$('.navigation-wrapper').css('margin-top', '-42px'); 
     $('.navigation--social').css('padding-top', '25px');
   }
 
@@ -66,8 +66,8 @@ $(document).ready(function () {
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
     $('.navigation-wrapper').css('margin-top', '0px');  
-    $('.navigation--social').css('padding-top', '0px');
-    $('.navigation--social').css('margin-top', '-7px');
+    //$('.navigation--social').css('padding-top', '0px');
+    //$('.navigation--social').css('margin-top', '-7px');
     
    if (window.innerWidth > 960) {
       $('#about-button').css('margin-bottom', '20px');
