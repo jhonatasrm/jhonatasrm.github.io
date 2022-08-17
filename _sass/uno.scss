@@ -587,7 +587,6 @@ hr {
 .btn,
 .navigation__item a {
   padding: 10px 20px;
-  border: 1px solid #4340d0;
   border-radius: 20px;
   font-size: 0.9em;
   font-weight: bold;
@@ -596,6 +595,11 @@ hr {
   color: #4340d0;
   -webkit-font-smoothing: antialiased;
 }
+
+.navigation__item a:hover{
+  border: 1px solid #4340d0;
+}
+
 .btn:hover,
 .navigation__item a:hover {
   color: #1c1a73;
