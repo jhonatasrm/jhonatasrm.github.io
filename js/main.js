@@ -1,6 +1,7 @@
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
+    $('.cover-navigation').css('margin-top', '0px');
     //$('.navigation-wrapper').css('margin-top', '-42px'); 
     //$('.navigation--social').css('padding-top', '25px');
   }
