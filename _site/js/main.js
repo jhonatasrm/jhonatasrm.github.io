@@ -1,9 +1,12 @@
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    $('.cover-navigation').css('margin-top', '0px');
-    //$('.navigation-wrapper').css('margin-top', '-42px'); 
+    $('.cover-navigation').css('margin-top', '10px');
+    $('#about').css("display", "none");
+    //$('.navigation-wrapper').css('margin-top', '0px'); 
     //$('.navigation--social').css('padding-top', '25px');
+  }else{
+    $('#about').css("display", "inline-block");
   }
 
   $('#close-content').click(function(){
@@ -11,7 +14,8 @@ $(document).ready(function () {
     window.history.pushState('state', 'title', '/');
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    //$('.navigation-wrapper').css('margin-top', '0px');  
+    $('#about').css("display", "inline-block");
+    ////margin-top', '10px'); 
     //$('.navigation--social').css('padding-top', '0px');
     //$('.navigation--social').css('margin-top', '-7px');
     
@@ -67,7 +71,8 @@ $(document).ready(function () {
 $(document).ready(function () {
   if(window.location.href.includes('/about')){
     $('#about-button').css('display', 'none');
-    //$('.navigation-wrapper').css('margin-top', '-42px'); 
+    //$('.navigation-wrapper').css('margin-top', '10px'); 
+
     //$('.navigation--social').css('padding-top', '25px');
   }
 
@@ -76,7 +81,7 @@ $(document).ready(function () {
     window.history.pushState('state', 'title', '/');
     $('#about-button').css('display', 'block');
     $('.panel-cover').removeClass('panel-cover--collapsed');
-    $('.navigation-wrapper').css('margin-top', '0px');  
+    //$('.navigation-wrapper').css('margin-top', '10px');  
     //$('.navigation--social').css('padding-top', '0px');
     //$('.navigation--social').css('margin-top', '-7px');
     
@@ -85,6 +90,7 @@ $(document).ready(function () {
    } else {
         if($('.navigation-wrapper').hasClass('visible')){
           $('.btn-mobile-menu').click();
+          $('.navigation-wrapper').css('margin-top', '0px');
         }
      }
   });
