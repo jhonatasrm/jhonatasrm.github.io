@@ -60,11 +60,9 @@ $(document).ready(function () {
     window.history.pushState('state', 'title', '/about/');
     $('#about-button').css('display', 'none');
     $('#about').css('display', 'none');
-    setTimeout(function(){
-      $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
-      $('#close-content').css('position', 'absolute');
-      $('#close-content').css("margin-top", "50px");
-    },500);
+    $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
+    $('#close-content').css('position', 'absolute');
+    $('#close-content').css("margin-top", "50px");
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if (window.width < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
@@ -85,11 +83,9 @@ $(document).ready(function () {
 $(document).ready(function () {
   if(window.location.href.includes('/about/')){
     $('#about').css('display', 'none');
-    setTimeout(function(){
-      $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
-      $('#close-content').css('position', 'absolute');
-      $('#close-content').css("margin-top", "50px");
-    },500);
+    $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
+    $('#close-content').css('position', 'absolute');
+    $('#close-content').css("margin-top", "50px");
     //$('.navigation-wrapper').css('margin-top', '10px'); 
 
     //$('.navigation--social').css('padding-top', '25px');
@@ -134,11 +130,9 @@ $(document).ready(function () {
 
   $('#about-button').click(function(){
     $('#about').css('display', 'none');
-    setTimeout(function(){
       $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
       $('#close-content').css('position', 'absolute');
       $('#close-content').css("margin-top", "50px");
-    },500);
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if (window.width < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
