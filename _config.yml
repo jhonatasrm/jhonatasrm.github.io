@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jhonatas Machado
-email: jhonatasrm@gmail.com
+email: contact@jhonatasrm.com
 description: > # this means to ignore newlines until "baseurl:"
   Oracle CX Commerce Developer at Compass.uol
 baseurl: "" # the subpath of your site, e.g. /blog
