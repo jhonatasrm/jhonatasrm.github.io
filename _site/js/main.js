@@ -89,7 +89,6 @@ $(document).ready(function () {
       $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
       $('#close-content').css('position', 'absolute');
       $('#close-content').css("margin-top", "50px");
-      $('#close-content').css("display", "block");
     },500);
     //$('.navigation-wrapper').css('margin-top', '10px'); 
 
