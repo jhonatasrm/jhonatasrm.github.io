@@ -1,10 +1,9 @@
 $(document).ready(function () {
-  if(window.location.href.includes('/about')){
+  if(window.location.href.includes('/about/')){
     $('.cover-navigation').css('margin-top', '10px');
     $('#about').css("display", "none");
     //$('#close-content').css('position', 'absolute');
     $('#close-content').css("margin-top", "50px");
-    $('#close-content').css("display", "block");
     $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
     //$('.navigation-wrapper').css('margin-top', '0px'); 
     //$('.navigation--social').css('padding-top', '25px');
@@ -58,14 +57,13 @@ $(document).ready(function () {
 
   $('#about-button').click(function(){
     document.title = "About | Jhonatas Machado";
-    window.history.pushState('state', 'title', '/about');
+    window.history.pushState('state', 'title', '/about/');
     $('#about-button').css('display', 'none');
     $('#about').css('display', 'none');
     setTimeout(function(){
       $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
       $('#close-content').css('position', 'absolute');
       $('#close-content').css("margin-top", "50px");
-      $('#close-content').css("display", "block");
     },500);
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if (window.width < 960) {
@@ -85,7 +83,7 @@ $(document).ready(function () {
 
 })
 $(document).ready(function () {
-  if(window.location.href.includes('/about')){
+  if(window.location.href.includes('/about/')){
     $('#about').css('display', 'none');
     setTimeout(function(){
       $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
@@ -141,7 +139,6 @@ $(document).ready(function () {
       $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
       $('#close-content').css('position', 'absolute');
       $('#close-content').css("margin-top", "50px");
-      $('#close-content').css("display", "block");
     },500);
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if (window.width < 960) {
