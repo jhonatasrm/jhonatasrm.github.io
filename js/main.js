@@ -9,7 +9,6 @@ $(document).ready(function () {
     //$('.navigation--social').css('padding-top', '25px');
   } else {
     $('#close-content').css("margin-top", "-5000px");
-    $('#close-content').css("display", "none");
   }
 
   $('#close-content').click(function(){
