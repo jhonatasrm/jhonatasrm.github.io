@@ -93,9 +93,17 @@ video {
   vertical-align: baseline;
 }
 
+#close-content-mb{
+  color: #bdbdbd !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
 /* HTML5 display-role reset for older browsers */
 .d-flex {
-  //display: flex;
+  display: flex;
   //justify-content: end;
   width: 100%;
   text-align: end;
@@ -856,7 +864,7 @@ i {
   }
   .panel-cover.panel-cover--collapsed .panel-main__inner {
     display: block;
-    padding: 70px 0 30px 0;
+    padding: 70px 0 10px 0;
   }
   .panel-cover.panel-cover--collapsed .panel-cover__logo {
     width: 60px;
