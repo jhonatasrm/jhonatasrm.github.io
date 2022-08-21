@@ -5,6 +5,7 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
+      $('#close-content-mb').css('width', '100%');
     } else {
       $('#close-content').css('position', 'absolute');
       $('#close-content-mb').css('display', 'none');
@@ -66,6 +67,7 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
+      $('#close-content-mb').css('width', '100%');
     } else {
       $('#close-content').css('position', 'absolute');
       $('#close-content-mb').css('display', 'none');
@@ -96,6 +98,7 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
+      $('#close-content-mb').css('width', '100%');
     } else {
       $('#close-content').css('position', 'absolute');
       $('#close-content-mb').css('display', 'none');
@@ -172,6 +175,7 @@ $(document).ready(function () {
       if (window.innerWidth < 960) {
         $('#close-content').css('display', 'none');
         $('#close-content-mb').css('display', 'flex');
+        $('#close-content-mb').css('width', '100%');
       } else {
         $('#close-content').css('position', 'absolute');
         $('#close-content-mb').css('display', 'none');

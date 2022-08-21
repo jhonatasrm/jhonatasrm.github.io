@@ -95,9 +95,9 @@ video {
 
 .close-content-mb{
   color: #bdbdbd !important;
-  display: flex;
+  display: flex !important;
   justify-content: center;
-  width: 100%;
+  width: 100% !important;
   margin-top: 10px;
 }
 
@@ -113,8 +113,9 @@ video {
   height: 25px;
   cursor: pointer;
   padding-bottom: 20px;
-  color: #333333 !important;
+  color: #333333;
 }
+
 
 .d-flex-img.d-flex-img:hover {
   transform: scale(1.1);
