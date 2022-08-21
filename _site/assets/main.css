@@ -503,3 +503,10 @@ table {
     color: #008080; }
   .highlight .il {
     color: #099; }
+  .close-content-mb{
+    color: #bdbdbd !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
