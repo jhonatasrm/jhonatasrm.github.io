@@ -5,9 +5,9 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
-      $('#close-content-mb').css('width', '100%');
+      // $('#close-content-mb').css('width', '100%');
     } else {
-      $('#close-content').css('position', 'absolute');
+      $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'none');
     }
     // $('#close-content').addClass('btn-mobile-close-icon icon-close-circle animated fadeInDownBig d-flex-img');
@@ -18,6 +18,7 @@ $(document).ready(function () {
   $('#close-content').click(function(){
     document.title = "Jhonatas Machado";
     window.history.pushState('state', 'title', '/');
+    $('#close-content').css('display', 'none');
     //$('#about-button').css('visibility', 'visible');
     $('.panel-cover').removeClass('panel-cover--collapsed');
     //$('#about').css("display", "inline-block");
@@ -67,9 +68,9 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
-      $('#close-content-mb').css('width', '100%');
+      //$('#close-content-mb').css('width', '100%');
     } else {
-      $('#close-content').css('position', 'absolute');
+      $('#close-content').css('display', 'block');
       $('#close-content-mb').css('display', 'none');
     }
     // $('#close-content').css("margin-top", "50px");
@@ -80,7 +81,6 @@ $(document).ready(function () {
       $('.content-wrapper').addClass('animated slideInTop');
     } else {
       $('.panel-cover').addClass('panel-cover--collapsed');
-      $('.content-wrapper').addClass('animated slideInRight');
       $('.panel-cover').css('max-width', currentWidth);
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {});
        if (window.innerWidth > 960) {
@@ -98,9 +98,9 @@ $(document).ready(function () {
     if (window.innerWidth < 960) {
       $('#close-content').css('display', 'none');
       $('#close-content-mb').css('display', 'flex');
-      $('#close-content-mb').css('width', '100%');
+      //$('#close-content-mb').css('width', '100%');
     } else {
-      $('#close-content').css('position', 'absolute');
+      $('#close-content').css('display', 'block');
       $('#close-content-mb').css('display', 'none');
     }
     // $('#close-content').css("margin-top", "50px");
@@ -175,9 +175,9 @@ $(document).ready(function () {
       if (window.innerWidth < 960) {
         $('#close-content').css('display', 'none');
         $('#close-content-mb').css('display', 'flex');
-        $('#close-content-mb').css('width', '100%');
+        //$('#close-content-mb').css('width', '100%');
       } else {
-        $('#close-content').css('position', 'absolute');
+        $('#close-content').css('display', 'block');
         $('#close-content-mb').css('display', 'none');
       }
       // $('#close-content').css("margin-top", "50px");
@@ -185,7 +185,6 @@ $(document).ready(function () {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if (window.width < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
-      $('.content-wrapper').addClass('animated slideInRight');
     } else {
       $('.panel-cover').css('max-width', currentWidth);
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {});

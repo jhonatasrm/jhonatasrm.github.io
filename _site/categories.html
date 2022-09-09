@@ -63,16 +63,21 @@
 <body>
 	<span class="mobile btn-mobile-menu">
 		<i class="icon icon-list btn-mobile-menu__icon"></i>
-		<i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 	</span>
 	<header class="panel-cover" style="background-image: url(/images/cover.jpeg)">
 		<div class="panel-main">
 			<div class="panel-main__inner panel-inverted">
+        <div class="d-flex-center">
+        <i class="icon btn-mobile-close-icon icon-close-circle" id="close-content" title="Close"></i>
+      </div>
 				<div class="panel-main__content">
 					<img src="/images/profile.jpeg" class="user-image" />
 					<h1 class="panel-cover__title panel-title">Jhonatas Machado</h1>
 					<hr class="panel-cover__divider" />
-					<p class="panel-cover__description">Oracle CX Commerce Developer at Compass.uol </p>
+					<p class="panel-cover__description">Oracle CX Commerce Developer at Compass.uol </p>          
+          <div class="d-flex-center">
+            <i class="icon btn-mobile-close-icon icon-close-circle" id="close-content-mb"></i>
+          </div>
 					<hr class="panel-cover__divider panel-cover__divider--secondary" />
 					<nav id="about" class="cover-navigation cover-navigation--primary">
 						<ul class="navigation">
@@ -81,7 +86,6 @@
 							</li>
 						</ul>
 					</nav>
-					<i class="icon btn-mobile-close-icon icon-close-circle d-flex-img close-content-mb" style="display: none;" id="close-content-mb" title="Close"></i>
 					<div class="navigation-wrapper">
 						<nav class="cover-navigation navigation--social">
 							<ul class="navigation">
@@ -149,9 +153,6 @@
 	</header>
 	<div class="content-wrapper">
 		<div class="content-wrapper__inner">
-			<div class="d-flex">
-				<i class="icon" id="close-content" title="Close"></i>
-			</div>
 			<article class="post-container post-container--single">
 				<header class="post-header">
 					<h1 class="post-title">About Me</h1>
