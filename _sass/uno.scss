@@ -115,7 +115,11 @@ video {
   padding-bottom: 20px;
   color: #333333;
 }
-
+.d-flex-center{
+  width:100%;
+  justify-content:center;
+  display: flex;
+}
 
 .d-flex-img.d-flex-img:hover {
   transform: scale(1.1);
@@ -636,15 +640,16 @@ hr {
   top: 3px;
   font-size: 36px;
   color: #fff;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-mobile-close-icon {
-  position: relative;
-  top: 3px;
-  font-size: 36px;
-  color: #333333;
-  -webkit-tap-highlight-color: transparent;
+  position:relative;
+  top:3px;
+  font-size:36px;
+  color: #fff;
+  opacity: 0.7;
+  cursor:pointer;
+  display:none;
 }
 
 nav {
