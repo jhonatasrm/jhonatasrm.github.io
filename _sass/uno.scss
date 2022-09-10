@@ -92,7 +92,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
+body {
+  overflow-x: hidden;
+}
 .close-content-mb{
   color: #bdbdbd !important;
   display: flex !important;
