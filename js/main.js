@@ -110,6 +110,7 @@ $(document).ready(function () {
     //$('.navigation--social').css('padding-top', '25px');
   } else {
     $('#about-button').css('display', 'block');
+    $('#close-content').css('display', 'none');
   }
 
   $('#close-content').click(function(){
