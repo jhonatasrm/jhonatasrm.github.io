@@ -16,7 +16,7 @@
 title: Jhonatas Machado
 email: contact@jhonatasrm.com
 description: > # this means to ignore newlines until "baseurl:"
-  Frontend Engineer at Compass.UOL
+  Software Developer at Compass.UOL
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jhonatasrm.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jhonatasrm_
